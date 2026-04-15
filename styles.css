@@ -1,0 +1,62 @@
+.slipbox-auto-number-modal .slipbox-auto-number-details {
+  margin: 12px 0;
+  padding: 8px 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-secondary);
+}
+
+.slipbox-auto-number-modal .slipbox-auto-number-details > div {
+  margin: 4px 0;
+}
+
+.slipbox-auto-number-batch-list {
+  max-height: 45vh;
+  overflow-y: auto;
+  margin: 12px 0;
+  padding: 8px 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-secondary);
+}
+
+.slipbox-auto-number-batch-item {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.slipbox-auto-number-batch-item:last-child {
+  border-bottom: 0;
+}
+
+.slipbox-auto-number-batch-line,
+.slipbox-auto-number-batch-action {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.slipbox-auto-number-batch-errors {
+  margin: 12px 0;
+  padding: 8px 10px;
+  border: 1px solid var(--background-modifier-error);
+  border-radius: 6px;
+}
+
+.slipbox-auto-number-global,
+.slipbox-auto-number-profile {
+  margin: 18px 0;
+  padding: 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+}
+
+.slipbox-auto-number-global .setting-item-control,
+.slipbox-auto-number-profile .setting-item-control {
+  flex: 1 1 520px;
+}
+
+.slipbox-auto-number-global input[type="text"],
+.slipbox-auto-number-profile input[type="text"] {
+  width: 100%;
+  min-width: min(520px, 100%);
+}

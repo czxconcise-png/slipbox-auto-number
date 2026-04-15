@@ -1,0 +1,9 @@
+{
+  "id": "slipbox-auto-number",
+  "name": "Slip Box Auto Number",
+  "version": "0.1.0",
+  "minAppVersion": "1.2.8",
+  "description": "Suggests and applies Folgezettel-style numbers for unnumbered links inserted into configured Slip Box trees.",
+  "author": "CZX",
+  "isDesktopOnly": false
+}
